@@ -1,6 +1,5 @@
 <resources>
     <dimen name="seekbar_width">250dp</dimen>
     <dimen name="main_button_size">150dp</dimen>
-
     <dimen name="sos_text_size">26sp</dimen>
 </resources>
