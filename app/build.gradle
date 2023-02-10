@@ -15,8 +15,8 @@ android {
         applicationId "com.jtcstudios.flashlight"
         minSdkVersion 29
         targetSdkVersion 33
-        versionCode 1
-        versionName "1.0.0"
+        versionCode 2
+        versionName "2.0.0"
         setProperty("archivesBaseName", "flashlight")
     }
 
@@ -54,11 +54,12 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
-    lintOptions {
-        checkReleaseBuilds false
+    lint {
         abortOnError false
+        checkReleaseBuilds false
     }
+    namespace 'com.simplemobiletools.flashlight'
+
 }
 
 dependencies {
